@@ -1,0 +1,186 @@
+.container {
+  margin: 0 auto;
+  max-width: 940px;
+}
+
+.textColor {
+  font-family: 'Radio Canada', sans-serif;
+  color: #3F5D45;
+  font-weight: 600;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 30px 0;
+}
+
+.header img {
+  width: 100%;
+}
+
+.header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+}
+
+.header ul a {
+  text-decoration: none;
+  line-height: 73px;
+  font-size: 16px;
+  padding: 10px 60px 8px 0;
+}
+
+.header .shop-logo {
+  margin-left: 49px;
+  cursor: pointer;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 60px;
+}
+
+.main .listBox {
+  width: 300px;
+}
+
+.main .listBox li {
+  padding: 16px 64px;
+  text-align: center;
+  border: 1px solid #EAF0ED;
+}
+
+.main .listBox li.listTitle {
+  background: #3F5D45;
+  color: #EAF0ED;
+  font-size: 24px;
+  font-weight: 600;
+  border: none;
+}
+
+.main .listBox li.index {
+  background: #EAF0ED;
+}
+
+.main .listBox li a {
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.main .itemBox {
+  width: calc(940px - 300px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main .itemBox .item {
+  width: 298px;
+  margin: 0 0 20px 20px;
+  border: 1px solid #EAF0ED;
+}
+
+.main .itemBox .item .item-img span.featured {
+  font-size: 16px;
+  font-family: 600;
+  line-height: 1.2;
+  text-align: center;
+  padding: 10px 8px;
+  margin-left: 20px;
+  width: 20px;
+  color: #EAF0ED;
+  background: #3F5D45;
+  position: absolute;
+}
+
+.main .itemBox .item .item-img button.favorite {
+  position: absolute;
+  border: none;
+  background: none;
+  margin: 19px 22px 0 250px;
+}
+
+.main .itemBox .item .item-img img {
+  vertical-align: middle;
+}
+
+.main .itemBox .item .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .itemBox .item .content span {
+  display: block;
+  padding: 14px 0;
+  text-align: center;
+}
+
+.main .itemBox .item .content span.name {
+  width: 172px;
+  border-right: 1px solid #EAF0ED;
+}
+
+.main .itemBox .item .content span.price {
+  width: calc(300px - 172px);
+}
+
+.main .itemBox .item button.btn {
+  border: none;
+  background: #EAF0ED;
+  font-size: 24px;
+  padding: 16px 89px;
+  cursor: pointer;
+}
+
+.pages {
+  margin: 10px 0 60px 0;
+}
+
+.pages ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pages ul li {
+  border: 1px solid #EAF0ED;
+  height: 60px;
+  overflow: hidden;
+}
+
+.pages ul li a {
+  text-decoration: none;
+  color: #3F5D45;
+  padding: 16px 24px;
+  display: block;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.pages ul li a.path {
+  padding: 18px;
+}
+
+.pages ul li a.active {
+  background-color: #3F5D45;
+  color: #EAF0ED;
+}
+/*# sourceMappingURL=style.css.map */
